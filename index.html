@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bootstrap Theme</title>
+  </head>
+
+  <body>
+    <!-- START HERE -->
+    <header class="container">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item px-3">
+              <a href="index.html" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item px-3">
+              <a href="project.html" class="nav-link">My Project</a>
+            </li>
+            <li class="nav-item px-3">
+              <a href="resume.html" class="nav-link">My Resume</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+        </div>
+    </header>
+    
+    <header id="home-section">
+      <div class="dark-overlay">
+        <div class="home-inner container">
+          <a href="intro.html"><span class="fa fa-arrow-left fa-2x text-white mb-5" id="back"></span></a>
+          <div class="row">
+            <div class="col-sm-8 text-white">
+              <h2 id="judul" class="display-2 line pb-3">Elbert Adiwijanto</h2>
+              <h3 id="text" class="display-4 py-3 ">Student of Binus University Majoring in Statistics and Computer Science</h3>
+              <div id="social" class="row">
+                <div class="d-flex flex-row justify-content-between align-items-center col-sm-3 pt-3">
+                  <div>
+                    <a href="https://www.linkedin.com/in/elbert-adiwijanto-669915161/" class="text-white">
+                      <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://instagram.com" class="text-white">
+                      <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://github.com" class="text-white">
+                      <i class="fab fa-github fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div id="button" class="d-flex flex-row py-5">
+                <a href="project.html"><button class="btn btn-outline-light mr-3">My Project</button></a>
+                <a href="resume.html"><button class="btn btn-outline-light">My Resume</button></a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="img/avatar.png" class="img-fluid" id="photo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
+    </script>
+  </body>
+</html>

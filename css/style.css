@@ -1,0 +1,131 @@
+#intro-section{
+    background: linear-gradient(to right, #203952, #2c3e50, #000000);
+    padding-top: 150px;
+    padding-bottom: 500px;
+}
+
+#intro-section .display-2 {
+    font-size: 4rem !important;
+}
+
+#intro-section .display-4 {
+    font-size: 2rem !important;
+}
+
+#intro-section .home-inner {
+    padding-top: 100px;
+}
+
+.line {
+    border-bottom: 1px white solid;
+}
+
+#intro1{
+    position: relative;
+    animation: text 3s 1;
+}
+
+#home-section{
+    background: linear-gradient(to right, #203952, #2c3e50, #000000);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#home-section .display-2 {
+    font-size: 4rem !important;
+}
+
+#home-section .display-4 {
+    font-size: 2rem !important;
+}
+
+#home-section .line {
+    border-bottom: 1px white solid;
+}
+
+#back{
+    animation: Slide_Up 0.4s ease;
+}
+
+#judul{
+    animation: Slide_Up 0.7s ease;
+}
+
+#photo{
+    animation: Slide_Up 0.7s ease;
+}
+
+#text{
+    animation: Slide_Up 1.0s ease;
+}
+
+#social{
+    animation: Slide_Up 1.3s ease;
+}
+
+#button{
+    animation: Slide_Up 1.5s ease;
+}
+
+.ani-left{
+    animation: Slide_Left 1.5s ease;
+}
+
+.ani-right{
+    animation: Slide_Right 1.5s ease;
+}
+
+#project-section{
+    background: linear-gradient(to right, #203952, #2c3e50, #000000);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#project-section .display-2 {
+    font-size: 4rem !important;
+}
+
+#project-section .display-4 {
+    font-size: 2rem !important;
+}
+
+.text-right{
+    text-align: right;
+}
+
+@keyframes Slide_Up{
+    0%{
+        color: black;
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes Slide_Right{
+    0%{
+        color: black;
+        transform: translateX(-150px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes Slide_Left{
+    0%{
+        color: black;
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+}
