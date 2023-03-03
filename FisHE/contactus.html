@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FisHe</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        <div class="navbar container">
+            <a href="./homepage.html"><img id="logo" src="./assets/logo/Logo FisHE2.png" alt="" /></a>
+            <nav>
+                <div class="navbar-items"><a href="./homepage.html">Home</a></div>
+                <div class="navbar-items gallery-menu">
+                    <a href="./gallery.html">Gallery</a>
+                    <div class="gallery-submenu">
+                        <div class="gallery-items"><a href="./fishshop.html">Fish Shop</a></div>
+                        <div class="gallery-items"><a href="./equipmentshop.html">Equipment Shop</a></div>
+                    </div>
+                </div>
+                <div class="navbar-items"><a href="./contactus.html">Contact Us</a></div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="about-contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="contact-box">
+                <h2>Enter your information</h2>
+                <br>
+                <form action="./contactusfinish.html" class="forms" onsubmit="return validate()">
+                    <div class="input-data">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Must be filled">
+                    </div>
+                    <br>
+                    <div class="input-data">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Must have @">
+                    </div>
+                    <br>
+                    <div class="input-data">
+                        <label for="gender">Gender</label>
+                        <select name="gender" id="gender">
+                            <option value=""></option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="input-data">
+                        <label for="contact-reason">Contact Reason</label>
+                        <select name="creason" id="creason">
+                            <option value=""></option>
+                            <option value="request">Request</option>
+                            <option value="business">Business</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="input-data">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="5" placeholder="Must be at least 10 characters"></textarea>
+                    </div>
+                    <br>
+                    <button type="reset" class="btn">Reset</button>
+                    <button type="submit" class="btn">Submit</button>
+                    <br>
+                    <br>
+                    <p id="error-msg"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <h1>Copyright &copy; FisHe Inc. 2022. All Rights Reserved</h1>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/js/validation.js"></script>
+</body>
+</html>
