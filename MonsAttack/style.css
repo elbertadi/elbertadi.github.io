@@ -1,0 +1,168 @@
+@font-face {
+    font-family: Cooper;
+    src: url("assets/Cooper\ Black\ Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cooper;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(40, 39, 39);
+}
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    padding-right: 5%;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+#logo-awal{
+    width: 1mm;
+    padding-right: 8cm;
+    text-align: center;
+}
+
+.background{
+    background: url(./assets/jumbotron.jpg);
+    background-size: 100% 100%;
+    background-position-x: center;
+    padding-top: 7cm;
+    padding-bottom: 7cm;
+    padding-left: 5cm;
+    padding-right: 5cm;
+}
+
+.background-box{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    background-color: black;
+}
+
+.container > p{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size:xx-large;
+}
+
+.fitur{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1cm;
+    margin-top: 24px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 1cm;
+    padding-top: 1cm;
+    align-items: center;
+    text-align: center;
+}
+
+.back2 .img-top{
+    display: none;
+}
+
+.back2:hover .img-bot {
+    display: none;
+}
+
+.back2:hover .img-top {
+    display: inline;
+}
+
+.footer{
+    background-color: rgb(46, 46, 46);
+}
+
+.play{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2cm;
+    align-items: center;
+}
+
+.main{
+    text-align: center;
+}
+
+.main > b{
+    font-size: xx-large;
+}
+
+.main > span{
+    font-size: large;
+    padding: 10px;
+}
+
+.tombol{
+    background-color: rgb(46, 46, 46);;
+}
+
+.foot{
+    display: flex;
+    padding: 1cm;
+    background-color: rgb(46, 46, 46);;
+    justify-content: space-around;
+}
+
+.background-regist{
+    background: url(./assets/land.gif);
+    background-size: cover;
+    background-position-x: center;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    padding-left: 7cm;
+    padding-right: 7cm;
+}
+
+.regist{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 72px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.form>h3, .regist>h1{
+    color: black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.form label{
+    color: black;
+}
+
+.form input{
+    color: black;
+}
+
+.input-data{
+    padding: 10px;
+
+    
+}
+
+.regist-social{
+    display: flex;
+    justify-content: center;
+}
